@@ -10,7 +10,7 @@ export async function fetchFindDate(date, type) {
         );
         return response.data;
   } catch (error) {
-    Notify.failure("We're sorry, but you've reached the end of search results.")
+    alert("We're sorry, but you've reached the end of search results.")
     }
 
 };
