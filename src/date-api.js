@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export async function fetchFindDate(date, type) {
-    const URL = 'https://numbersapi.com/'
+    const URL = 'http://numbersapi.com/'
     try {
         const response = await axios.get(
             `${URL}${date}/${type}`
