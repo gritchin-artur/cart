@@ -1,0 +1,33 @@
+body {
+    background-image: url('./images/1618454055_25-phonoteka_org-p-zvezdnii-fon-kosmos-29-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+select,
+input {
+border-radius: 5px;
+    font-size: 1.5em;
+border-color: linear-gradient(21deg, #10abff, #1beabd);
+color: white;
+background-color: black;
+ }
+
+ input{
+    width: 50px;
+ }
+
+ .select-date {
+        justify-content: center;
+    display: flex;
+    gap: 40px;
+ }
+
+ .cart-date {
+    display: flex;
+    justify-content: center;
+color: beige;
+    margin: 50px;
+    font-size: 30px;
+ }
