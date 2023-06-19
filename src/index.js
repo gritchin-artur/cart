@@ -1,4 +1,5 @@
 import { fetchFindDate } from './date-api';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const input = document.querySelector('.enter-date');
 const card = document.querySelector('.cart-date')
@@ -23,7 +24,7 @@ input.addEventListener('input', (event) => {
         cardText(result)
     })
         .catch((error) => {
-            alert('error')
+            Notify.failure('error')
         })
 });
 
